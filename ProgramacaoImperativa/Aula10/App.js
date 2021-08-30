@@ -13,7 +13,7 @@ O que esses códigos retornam?
 let numbers =[22, 33, 54, 66, 72]
 console.log(numbers[numbers.length])
 
-resposta : 5 
+resposta : undefined, porque numbers.length retorne 5, e number[5], não existe.
 
 let grupoDeAmigos = [ ["Harry", "Ron", "Hermione"], ["Spiderman", "Hulk", "Ironman"], ["Penélope Glamour", "Pierre Nodoyuna","Patán"] ]
 console.log(grupoDeAmigos[1][0])
