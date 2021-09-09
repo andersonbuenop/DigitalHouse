@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Aula14-sala1</title>
+  </head>
+
+  <body>
+    <main>
+      <section>
+        <img src="./img/doces do ze.jpg" alt="Logo doces do ze" />
+        <h2>Doces do Ze!</h2>
+      </section>
+      <form action="#" method="POST">
+        <fieldset>
+          <legend>Dados Pessoais:</legend>
+          <label for="email">E-mail: </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="email"
+          />
+
+          <label for="nome">Nome: </label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Digite seu nome"
+          />
+
+          <label for="endereco">Endereço: </label>
+          <textarea
+            name="endereco"
+            id="endereco"
+            cols="22"
+            rows="5"
+            placeholder="Digite seu endereço"
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Sabores de Sorvete:</legend>
+          <div class="Sabores">
+          <select name="Sabores" id="Sabores">
+            <option value="">Escolha uma opção</option>
+            <optgroup label="Sabores">
+              <option value="Flocos">Flocos</option>
+              <option value="Chocolate">Chocolate</option>
+              <option value="Morango">Morango</option>
+              <option value="Leiteninho">Leiteninho</option>
+              <option value="Napolitano">Napolitano</option>
+            </optgroup>
+          </select>
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Tamanho</legend>
+            <div class="Tamanho">
+            <input id="300"type="radio">
+            <label for="300">300ml</label>
+            <input id="500"type="radio">
+            <label for="500">500ml</label>
+            <input id="1000"type="radio">
+            <label for="1000">1000ml</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Adicionais</legend>
+            <div class="Adicionais">
+            <input id="CoberturaChocolate" type="checkbox">
+            <label for="CoberturaChocolate">Cobertura de Chocolate</label>
+            <input id="Chantilly" type="checkbox">
+            <label for="Chantilly">Chantilly</label>
+            <input id="Granulado" type="checkbox">
+            <label for="Granulado">Granulado</label>
+            </div>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Cancelar</button>
+      </form>
+    </main>
+  </body>
+</html>
