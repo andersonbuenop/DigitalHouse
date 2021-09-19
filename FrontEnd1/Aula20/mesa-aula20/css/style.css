@@ -41,9 +41,10 @@ img{
     color: blanchedalmond;
 
 }
-ul{
+ol{
     margin-top: 45px;
     margin-left: 20px;
+    list-style-type: none;
 }
 li{
     height: 45px;
