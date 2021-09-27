@@ -115,6 +115,14 @@ main h2, main h3 {
   margin-top: 60px;
 }
 
+.image-container {
+  height: 350px;
+  width: 100%;
+  border: 10px groove lightgray;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
 /* Responsividade */
 @media (min-width: 786px) and (max-width: 1065px) {
   .card-grid {
