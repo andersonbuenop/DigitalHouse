@@ -7,6 +7,11 @@
 
 .fundo-form{
   background-color: rgb(42, 42, 66);
+  border-radius: 2%;
+}
+
+body{
+  background-color: black!important;
 }
 
 main{

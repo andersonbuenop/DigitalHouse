@@ -41,7 +41,7 @@
           <div class="row-3">
             <label for="lbl-descricao" class="form-label">Descrição</label>
             <textarea id="descricao" class="form-control" rows="3" placeholder="Insira uma descrição legal aqui..."
-              cols="30" rows="20" maxlength="75"></textarea>
+              cols="30" rows="5" maxlength="75"></textarea>
           </div>
           <div class="row-3">
             <button type="submit" class="btn btn-dark" id="enviar">Enviar</button>
