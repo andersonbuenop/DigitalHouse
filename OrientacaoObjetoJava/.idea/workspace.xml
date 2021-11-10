@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33d49953-a02d-4106-a6eb-b70211912b39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/aula03/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula03/Funcao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula05/Mesa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula05/UsuarioJogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula06/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula06/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OrientacaoObjetoJava/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula01/ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula01/ex01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
       <recent name="aula02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex01">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aula03.Ex01" />
       <module name="OrientacaoObjetoJava" />
@@ -115,25 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula02.Main" />
+    <configuration name="Mesa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula05.Mesa" />
       <module name="OrientacaoObjetoJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mesa01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula02mesa.Mesa01" />
-      <module name="OrientacaoObjetoJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aula02mesa.*" />
+          <option name="PATTERN" value="aula05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,20 +143,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula06.Principal" />
+      <module name="OrientacaoObjetoJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Mesa01" />
       <item itemvalue="Application.Mesa02" />
       <item itemvalue="Application.Ex01" />
       <item itemvalue="Application.Funcao" />
+      <item itemvalue="Application.Mesa" />
+      <item itemvalue="Application.Principal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.Mesa" />
         <item itemvalue="Application.Ex01" />
         <item itemvalue="Application.Funcao" />
         <item itemvalue="Application.Mesa02" />
-        <item itemvalue="Application.Mesa01" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -192,5 +194,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
