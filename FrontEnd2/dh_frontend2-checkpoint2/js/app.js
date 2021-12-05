@@ -3,7 +3,8 @@ let today = new Date().toISOString().substring(0, 10);
 document.getElementById("todo_date").setAttribute("min", today);
 document.getElementById("todo_date").setAttribute("value", today);
 let todayPrinted = new Date().toLocaleDateString();
-let todayCoverted = new Date().toISOString().replace(/T.*/,'').split('-').reverse().join('-')
+let todayCoverted = new Date().toISOString().replace(/T.*/,'').split('-').reverse().join('/');
+document.getElementById("todo_today").innerHTML = todayCoverted;
 
 console.log(today)
 
@@ -14,7 +15,8 @@ const todoButton = document.querySelector('.todo_button');
 const todoList = document.querySelector('.todo_list');
 const filterOption = document.querySelector('.filter_todo');
 
-//Eventos de add, marcar e deletar
+//Eventos de add e deletar
+console.log(todoInput.value);
 todoButton.addEventListener("click", addTodo)
 todoList.addEventListener("click", deleteCheck)
 
@@ -59,12 +61,16 @@ function deleteCheck(e) {
     const item = e.target;
     //Deletar item
     if (item.classList[0] === "delete_btn") {
-        const todo = item.parentElement;
-        // Animação "fall" quando deletar item
-        todo.classList.add("fall")
-        todo.addEventListener('transitionend', function () {
+        if (confirm('Tem certeza que desaja remover essa tarefa?')) {
+            const todo = item.parentElement;
+            todo.classList.add("fall")
+            todo.addEventListener('transitionend', function () {
             todo.remove()
         })
+    } else {
+            // Do nothing!
+          }
+        
     }
     // Marcar item
     if (item.classList[0] === "complete_btn") {

@@ -41,7 +41,6 @@ form button:hover{
   font-size: 29px;
 }
 
-/* STYLING CONTAINER WHERE THE TASKS ARE SHOWN */
 .todo_container{
   display: flex;
   justify-content: center;
@@ -68,7 +67,6 @@ form button:hover{
   flex: 1;
 }
 
-/* STYLING THE BUTTONS ON THE TASKS  */
 .complete_btn, 
 .delete_btn{
   padding: 0.5rem;
@@ -96,13 +94,12 @@ form button:hover{
   pointer-events: none;
 }
 
-/* STYLING TASK THAT IS COMPLETED */
 .completedItem{
   text-decoration: line-through;
   opacity: 0.5;
   transform: scale(0.96);
 }
-/* DELETING THE TASKS */
+
 .fall{
   transform: translateY(4rem) scale(0.4) rotateZ(20deg);
   opacity: 0;
