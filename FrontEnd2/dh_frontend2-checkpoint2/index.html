@@ -18,12 +18,31 @@
     </header>
     <form>
         <div>
-        <input type="date" id="meeting-time" name="meeting-time" min="2018-06-07" max="2018-06-14">
-    </div>
-        <input type="text" placeholder="Entre com a atividade..." class="todo_input" /><button class="todo_button" type="submit"><i class="fas fa-plus-square"></i></button>
+            <input type="date" id="todo_date" class="todo_date" name="todo_date" value="2021-06-07" min="2021-06-07" max="2021-12-31">
+        </div>
+        <input type="text" placeholder="Entre com a atividade..." class="todo_input" /><button class="todo_button"
+            type="submit"><i class="fas fa-plus-square"></i></button>
     </form>
     <div class="todo_container">
-        <ul class="todo_list"></ul>
+        <ul class="todo_list">
+            <!--
+                Modelo inicial da lista sem o campo data
+                
+            <div class="todo">
+                <li class="todo_item">teste</li><button class="complete_btn"><i class="fas fa-check"></i></button><button
+                    class="delete_btn"><i class="fas fa-trash"></i></button>
+            </div>
+            <div class="todo">
+                <li class="todo_item">teste2</li><button class="complete_btn"><i class="fas fa-check"></i></button><button
+                    class="delete_btn"><i class="fas fa-trash"></i></button>
+            </div>
+            <div class="todo">
+                <li class="todo_item">teste3    </li><button class="complete_btn"><i class="fas fa-check"></i></button><button
+                    class="delete_btn"><i class="fas fa-trash"></i></button>
+            </div>
+        -->
+        </ul>
+        
     </div>
     <script src="./js/app.js"></script>
 </body>
