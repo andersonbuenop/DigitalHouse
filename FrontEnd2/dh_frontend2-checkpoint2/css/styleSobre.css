@@ -4,7 +4,12 @@ body{
     font-family: 'Poppins', sans-serif;
     color: white;
     min-height: 100vh;
-} 
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
 
 .card-grid{
     display: grid;
