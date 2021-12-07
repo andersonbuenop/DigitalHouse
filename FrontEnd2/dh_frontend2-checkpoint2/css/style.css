@@ -7,6 +7,16 @@
 
 h1{
   color: white!important;
+  text-align: center;
+  margin: 1em;
+  font-size: 3rem;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.titulo {
+
+  margin-top: -3em;
+
 }
 
 .form.group{
@@ -154,4 +164,16 @@ form button:hover{
 .fall{
   transform: translateY(4rem) scale(0.4) rotateZ(20deg);
   opacity: 0;
+}
+.fixed-top {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.imagem{
+  align-items: center;
+  text-align: center;
 }
