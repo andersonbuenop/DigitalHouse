@@ -1,0 +1,178 @@
+body{
+    scroll-behavior: smooth;
+    background-image: linear-gradient(42deg, #141041, #a7dfff);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    min-height: 100vh;
+} 
+
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    justify-content: center;
+    background-color: var(--preto);
+    width: 75%;
+}
+
+.card > img{
+    max-width: 14rem;
+    width: auto;
+    height: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 44rem;
+    height: 15rem;
+    border:transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(42deg, #141041, #a7dfff);
+}
+
+section > h1{
+    text-align:end;
+    background-color: var(--preto);
+    margin: 0;
+    color: var(--branco);
+    font-size: 3.5rem;
+}
+
+h2{
+    font-size: 2.3rem;
+}
+
+.participantes{
+    display: flex;
+    background-color: var(--preto);
+    justify-content: center;
+    padding: 50px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    margin-top: 7rem;
+}
+
+#github{
+    height: 3rem;
+    border-radius: 3rem;
+}
+
+#linkedin{
+    height: 3rem;
+    margin-top: 0.1rem;
+}
+
+.card:hover{
+    transform: scale(1.04);
+    transition: all 250ms ease-in-out;
+    border-style: solid;
+    border-color: var(--laranja);
+    border-width: 3px;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: var(--branco);
+}
+
+@media (max-width: 1634px) {
+    .card{
+        width: 40rem;
+        height: 14rem;
+    }
+    .icons{
+        margin-top: 6rem;
+    }
+    }
+
+    @media (max-width: 1487px) {
+        .card{
+            width: 35rem;
+            height: 13rem;
+        }
+        .icons{
+            margin-top: 5.3rem;
+        }
+        h2{
+            font-size: 2rem;
+        }
+        }
+
+        @media (max-width: 1297px) {
+            .card{
+                width: 30rem;
+                height: 12rem;
+            }
+            .icons{
+                margin-top: 5rem;
+            }
+            h2{
+                font-size: 1.7rem;
+            }
+            }
+
+            @media (max-width: 1104px) {
+                .card{
+                    width: 25rem;
+                    height: 10rem;
+                }
+                .icons{
+                    margin-top: 4rem;
+                }
+                h2{
+                    font-size: 1.4rem;
+                }
+                #github{
+                    height: 2rem;
+                }
+                
+                #linkedin{
+                    height: 2rem;
+                }
+                }
+
+
+
+    @media (max-width: 890px) {
+        .card-grid{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1.4rem;
+        }
+        .card > img{
+            max-width: 8.6rem;
+            width: auto;
+            height: 100%;
+        }
+        section > h1{
+            font-size: 2.9rem;
+        }
+        }
+
+        @media (max-width: 400px) {
+            .card{
+                width: 19.9rem;
+                height: 10rem;
+            }
+            section > h1{
+                font-size: 2.7rem;
+            }
+            h2{
+                font-size: 1.03rem;
+            }
+            }
+            
+.fixed-top {
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}

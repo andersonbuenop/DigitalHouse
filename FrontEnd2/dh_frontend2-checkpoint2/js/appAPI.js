@@ -1,4 +1,4 @@
-let button = document.querySelector("button")
+let button = document.querySelector(".btn")
 let conteudo = document.querySelector(".conteudo")
 
 button.addEventListener("click", (event) =>{
@@ -9,7 +9,7 @@ button.addEventListener("click", (event) =>{
     .then(response => response.json())
     .then(json => {
         conteudo.innerHTML =  json.map( todos => `
-            <div class="todos ${todos.completed}"> 
+            <div class="corpos ${todos.completed}"> 
                 <p>${todos.title}<p> 
                 <p>${todos.id}</p>
             </div>`).join("");
